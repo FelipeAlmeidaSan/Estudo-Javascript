@@ -57,4 +57,46 @@ let a = 10;
 let b = 30;
 
 console.log(a < b);
-console.log(a < b && b === 30); 
+console.log(a < b && b === 30);
+
+//Controle de Fluxo
+
+// --- Condicional if, else if , else
+
+let minhaIdade = 18;
+if (minhaIdade < 18) {
+    console.log("Menor de idade");
+
+} else if (minhaIdade === 18) {
+    console.log("Tenho 18 anos")
+
+} else {
+    console.log("Maior de idade");
+}
+
+// --- Swith 
+
+let cor = "azul";
+
+switch (cor) {
+    case "vermelho":
+        console.log("cor é vermelha");
+        break;
+    case "azul":
+        console.log("cor é azul");
+        break;
+    default:
+        console.log("cor desconhecida");
+}
+
+// Laços de repetição (for, while, do while)
+
+for (let i = 0; i < 5; i++) {
+    console.log(i);
+}
+
+let i = 0;
+while (i < 5) {
+    console.log(i);
+    i++;
+}
