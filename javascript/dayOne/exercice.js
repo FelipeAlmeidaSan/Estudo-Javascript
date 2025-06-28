@@ -1,9 +1,16 @@
 let nome = "joão Felipe"
 let anoNascimento = 2002
-let idade
+let idade = 2025 - anoNascimento
 let cidade = "Aracaju"
 
-console.log(2025 - anoNascimento);
+console.log("Nome:", nome);
+console.log("Ano em que nasceu:", anoNascimento);
+console.log("Idade atual:", idade);
+console.log("Cidade:", cidade);
+
+cidade = "São Paulo"
+console.log("cidade atualizada:", cidade);
+
 
 
 /* Crie uma variável chamada nome e atribua o seu nome a ela.
