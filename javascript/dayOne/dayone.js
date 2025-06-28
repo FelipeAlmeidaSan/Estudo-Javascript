@@ -45,7 +45,7 @@ let usuário = { nome: "Ana", idade: 20 };
 // <=     Menor ou igual
 
 
-// Lógicos
+// --- Lógicos
 
 // &&   E
 // ||   Ou 
