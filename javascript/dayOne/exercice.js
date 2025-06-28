@@ -1,4 +1,6 @@
 let nome = "joão Felipe"
+let diaNascimento = 20
+let mesNascimento = "setembro"
 let anoNascimento = 2002
 let idade = 2025 - anoNascimento
 let cidade = "Aracaju"
@@ -10,6 +12,9 @@ console.log("Cidade:", cidade);
 
 cidade = "São Paulo"
 console.log("cidade atualizada:", cidade);
+
+console.log("Olá, meu nome é", nome, ",tenho", idade, "Nasci em", anoNascimento, "na cidade de aracaju e hoje moro em", cidade);
+
 
 
 
