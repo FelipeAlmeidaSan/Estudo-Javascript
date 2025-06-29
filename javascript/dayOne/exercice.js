@@ -1,23 +1,30 @@
+// Caucúlo de idade
 let anoNascimento = 1994
 let anoAtual = 2025
 
-console.log(`Eu tenho ${anoAtual} - ${anoNascimento} anos de idade`);
+console.log(`Eu tenho ${anoAtual - anoNascimento} anos de idade`);
 
+// Comparação
 let a = 30;
 let b = 32;
+let c = "36";
 
+console.log(a === c);
 console.log(a == b);
 
-let idade = 16
 
-if (idade >= 18) {
-      console.log("Você pode tirar a carteira de abilitação")
+// Verificação com operadores lógicos
+let idade = 23
+let naoTemCNH = true
+
+
+
+if (idade >= 18 && naoTemCNH) {
+      console.log("Você pode tirar a carteira de abilitação");
 } else if (idade < 18) {
-      console.log("Você não pode tirar a carteira")
+      console.log("Você não pode tirar a carteira");
+
 }
-
-
-
 
 
 
