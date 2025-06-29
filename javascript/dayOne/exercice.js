@@ -1,57 +1,38 @@
-// Tipos de dados
+let anoNascimento = 1994
+let anoAtual = 2025
 
-let marca = "BMW";                  // string
-let ano = 2014;                     // number
-let seminovo = true;                // boolean
-let modelos = ["320i", "X3"];       // array
+console.log(`Eu tenho ${anoAtual} - ${anoNascimento} anos de idade`);
+
+let a = 30;
+let b = 32;
+
+console.log(a == b);
+
+let idade = 16
+
+if (idade >= 18) {
+      console.log("Você pode tirar a carteira de abilitação")
+} else if (idade < 18) {
+      console.log("Você não pode tirar a carteira")
+}
 
 
-let carros = {
-    marca: "BMW",
-    modelo: "X3",
-    ano: 2023
-}                                  // object
 
 
-
-let compras = ["Azeite", "Macarrão", "Café", "Arroz", "Ovos", "Carne", "Feijão"];
-
-let carro = { marca: chevrolet, modelo: cruze, ano: 2017 }
 
 
 /*
 
-Crie uma variável para cada tipo: string, number, boolean, array e object.
+Some dois números e exiba o resultado no console.
 
-Crie um array chamado compras com pelo menos 4 itens.
+Compare duas variáveis numéricas e diga se são iguais (use == e ===).
 
-Crie um objeto chamado carro com as propriedades marca, modelo e ano.
+Use operadores lógicos para verificar se:
 
+      Uma pessoa tem mais de 18 anos e tem CNH.
 
-*/
+      Um aluno passou se a nota for maior que 7 ou ele tiver feito recuperação.
 
-/* 
-// Variáveis com tipos básicos
-let marca = "BMW";              // string
-let ano = 2014;                 // number
-let seminovo = true;            // boolean
-let modelos = ["320i", "X3"];   // array
-
-// Objeto correto
-let carros = { 
-  marca: "BMW", 
-  modelo: "X3", 
-  ano: 2023 
-};
-
-// Array de compras
-let compras = ["Azeite", "Macarrão", "Café", "Arroz", "Ovos", "Carne", "Feijão"];
-
-// Outro objeto de carro
-let carro = { 
-  marca: "Chevrolet", 
-  modelo: "Cruze", 
-  ano: 2017 
-}; 
 
 */
+
