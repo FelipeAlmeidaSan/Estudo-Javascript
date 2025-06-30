@@ -1,44 +1,80 @@
-// Caucúlo de idade
-let anoNascimento = 1994
-let anoAtual = 2025
+// Idade para votar
+let idadeEleitoral = 13;
 
-console.log(`Eu tenho ${anoAtual - anoNascimento} anos de idade`);
-
-// Comparação
-let a = 30;
-let b = 32;
-let c = "36";
-
-console.log(a === c);
-console.log(a == b);
-
-
-// Verificação com operadores lógicos
-let idade = 23
-let naoTemCNH = true
-
-
-
-if (idade >= 18 && naoTemCNH) {
-      console.log("Você pode tirar a carteira de abilitação");
-} else if (idade < 18) {
-      console.log("Você não pode tirar a carteira");
-
+if (idadeEleitoral >= 16) {
+      console.log("Está apto a votar");
+} else {
+      console.log("Não pode votar");
 }
 
+
+// Verificação do valor do número
+let valorNumber = 0;
+
+if (valorNumber > 0) {
+      console.log("Este número é positivo");
+} else if (valorNumber < 0) {
+      console.log("Este número é negativo");
+} else {
+      console.log("Encontramos o zero");
+}
+
+
+// Switch com dias da semana
+let dia = 3;
+
+switch (dia) {
+      case 1:
+            console.log("Domingo");
+            break;
+      case 2:
+            console.log("Segunda-feira");
+            break;
+      case 3:
+            console.log("Terça-feira");
+            break;
+      case 4:
+            console.log("Quarta-feira");
+            break;
+      case 5:
+            console.log("Quinta-feira");
+            break;
+      case 6:
+            console.log("Sexta-feira");
+            break;
+      case 7:
+            console.log("Sábado");
+            break;
+      default:
+            console.log("Dia inválido");
+}
+
+
+// Numeros de 1 a 10
+for (let i = 1; i <= 10; i++) {
+      console.log(i);
+}
+
+// Contar até 5
+let contador = 1;
+
+while (contador <= 5) {
+      console.log(contador);
+      contador++;
+}
 
 
 /*
 
-Some dois números e exiba o resultado no console.
+Crie um if que verifica se uma pessoa pode votar (idade ≥ 16).
 
-Compare duas variáveis numéricas e diga se são iguais (use == e ===).
+Use if/else para verificar se um número é positivo, negativo ou zero.
 
-Use operadores lógicos para verificar se:
+Crie um switch para imprimir o dia da semana com base em um número (1 = domingo, 2 = segunda...).
 
-      Uma pessoa tem mais de 18 anos e tem CNH.
+Crie um for que imprime os números de 1 a 10.
 
-      Um aluno passou se a nota for maior que 7 ou ele tiver feito recuperação.
+Use while para contar até 5.
 
 
 */

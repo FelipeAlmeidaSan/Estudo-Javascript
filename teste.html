@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mostrar na Página</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <h1>Informações:</h1>
+    <div id="resultado"></div>
+
+    <script>
+        let nome = "João Felipe";
+        let idade = 2025 - 2002;
+        let cidade = "Aracaju";
+
+        let texto = `Olá, meu nome é ${nome}. Tenho ${idade} anos e moro em ${cidade}.`;
+
+        document.getElementById("resultado").innerHTML = `<p>${texto}</p>`;
+    </script>
+
+</body>
+
+</html>
