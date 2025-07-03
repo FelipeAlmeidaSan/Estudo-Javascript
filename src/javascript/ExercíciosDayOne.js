@@ -39,9 +39,9 @@ if (produto.disponibilidade = true) {
 // Terceiro Exercício
 
 const usuario = "admin"
-const senha = 1234
+const senha = "1234"
 
-if (usuario === "admin" && senha === 1234) {
+if (usuario === "admin" && senha === "1234") {
     console.log("Login bem-sucedido");
 } else {
     console.log("Usuário ou senha incorretos")
@@ -51,3 +51,39 @@ if (usuario === "admin" && senha === 1234) {
 // Depois verifique se:
 // usuario === "admin" && senha === "1234"
 // Se sim, mostre "Login bem-sucedido", senão "Usuário ou senha incorretos"
+
+
+// Quarto Exercício
+let nota = 6.5;
+
+if (nota >= 7) {
+    console.log("Aprovado");
+} else if (nota >= 5 && nota < 7) {
+    console.log("Recuperação");
+} else {
+    console.log("Reprovado");
+}
+
+
+// Crie uma variável nota (0 a 10)
+// Se a nota for >= 7 → "Aprovado"
+// Se for >= 5 e < 7 → "Recuperação"
+// Senão → "Reprovado"
+
+
+// Quinto Exercício
+
+let mercado = ["azeite", "café", "ovos", "refrigerante", "arroz"];
+
+for (let i = 0; i < mercado.length; i++) {
+    if (mercado[i] === "leite") {
+        console.log(`⚠️ Item especial encontrado: ${mercado[i]}`);
+    } else {
+        console.log(mercado[i]);
+    }
+}
+
+
+// Crie um array com 5 itens de mercado
+// Use um laço for para imprimir cada item
+// Use um if dentro do for para destacar "leite" se estiver na lista
