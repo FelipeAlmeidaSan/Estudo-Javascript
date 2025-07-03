@@ -34,3 +34,20 @@ if (produto.disponibilidade = true) {
 // Se sim, exiba: "O produto NOME está disponível por PREÇO reais."
 // Se não, exiba: "Produto indisponível no momento."
 
+
+
+// Terceiro Exercício
+
+const usuario = "admin"
+const senha = 1234
+
+if (usuario === "admin" && senha === 1234) {
+    console.log("Login bem-sucedido");
+} else {
+    console.log("Usuário ou senha incorretos")
+}
+
+// Crie duas variáveis: usuario e senha
+// Depois verifique se:
+// usuario === "admin" && senha === "1234"
+// Se sim, mostre "Login bem-sucedido", senão "Usuário ou senha incorretos"
