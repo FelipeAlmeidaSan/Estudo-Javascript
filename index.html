@@ -15,6 +15,45 @@
     <h1 id="demo">Resultado dos Exercícios em javascript</h1>
     <p id="resultado"></p>
 
+    <h2>Primeiro exercício:</h2>
+    <div id="mensagem"></div>
+
+    <h2>Segundo exercício</h2>
+    <div id="texto"></div>
+    <script>
+
+        // Primeiro Exercício
+        let nome = "Edilson";
+        let idade = 53;
+        let cidade = "Itabaiana";
+        let profissão = "açougueiro";
+
+        let frase = `Olá, meu nome é ${nome}, tenho ${idade} anos, moro em ${cidade} e sou ${profissão}.`;
+
+        document.getElementById("mensagem").innerHTML = `<p>${frase}</p>`;
+
+    </script>
+
+    <script>
+        // Segundo Exercício
+        let produto = {
+            nome: "smartphone",
+            preço: 499,
+            disponibilidade: true
+        };
+
+        let mensagem = "";
+
+        if (produto.disponibilidade) {
+            mensagem = `O produto ${produto.nome} está disponível por R$${produto.preço} reais.`;
+        } else {
+            mensagem = "Produto indisponível no momento.";
+        }
+
+        // Mostrar na página
+        document.getElementById("texto").innerHTML = `<p>${mensagem}</p>`;
+    </script>
+
     <script src="javascript/ExercíciosDayOne.js">
     </script>
 
