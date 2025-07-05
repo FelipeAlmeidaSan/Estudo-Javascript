@@ -26,3 +26,8 @@ function somar(...numeros) {
 
 console.log(somar(1, 2, 3)); // Saída: 6
 console.log(somar(10, 20, 30, 40, 50)); // Saída: 150
+
+
+
+// Crie uma função chamada calcularDesconto que recebe dois parâmetros: preco e descontoPercentual.
+// Ela deve retornar o valor final com desconto.
