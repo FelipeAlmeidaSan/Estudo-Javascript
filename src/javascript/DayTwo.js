@@ -59,3 +59,14 @@ let Nome = "Felipe";
 // Exemplo 3 
 console.log(nome); // undefined
 var Name = "Felipe";
+
+
+/*| Conceito      | O que é                                                     | Exemplo rápido                  |
+| ------------- | ----------------------------------------------------------- | ------------------------------- |
+| **Função**    | Bloco reutilizável de código                                | `function oi() { ... }`         |
+| **Parâmetro** | Valor que você passa para dentro da função                  | `function somar(a, b) {}`       |
+| **Retorno**   | Valor que a função devolve com `return`                     | `return a + b`                  |
+| **Scope**     | Onde a variável pode ser usada                              | local (dentro) vs global (fora) |
+| **Hoisting**  | JavaScript "move" declaração de `var` e `function` pra cima | `teste(); function teste() {}`  |
+*/
+
