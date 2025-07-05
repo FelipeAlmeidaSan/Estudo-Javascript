@@ -72,7 +72,7 @@ if (nota >= 7) {
 
 
 // Quinto Exercício
-
+-0
 let mercado = ["azeite", "café", "ovos", "refrigerante", "arroz"];
 
 for (let i = 0; i < mercado.length; i++) {
