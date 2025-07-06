@@ -40,7 +40,7 @@ let resultado = calcularDesconto(100, 10);
 console.log(`O valor do final com desconto é ${resultado}`);
 
 
-// EScopo
+// Escopo
 /* Crie uma variável mensagem fora da função com o valor "Mensagem Global"
 Depois, crie uma função exibirMensagem() que define uma variável local com o mesmo nome (mensagem = "Mensagem Local") e exibe ela no console.
 
@@ -65,4 +65,27 @@ exibir(); // Isso deve funcionar
 function exibir() {
     console.log("Função chamada antes de ser declarada");
 }
+
+
+
+
+/* Desafio Final: Caixa de Supermercado
+Crie um programa que:
+
+Tenha uma função calcularTotal(preco, quantidade)
+
+Depois crie uma função mostrarResumo(nomeProduto, preco, quantidade) que:
+
+Chama calcularTotal
+
+Mostra no navegador ou console:
+
+Produto: Café
+Quantidade: 3
+Total: R$ 45
+Teste com pelo menos 3 produtos diferentes! */
+
+
+
+
 
