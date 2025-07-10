@@ -23,3 +23,22 @@ let carro = {
 
 console.log(carro.modelo); // curze
 carro.falar();             // Hoje vou buscar meu cruse na loja da Chevrolet
+
+
+// Protótipos (Prototype)
+let animal = {
+    respirar: function () {
+        console.log("Respirando...");
+    }
+};
+
+let cachorro = {
+    latir: function () {
+        console.log("Au au!");
+    }
+};
+
+cachorro.__proto__ = animal;
+
+cachorro.latir();    // Au au!
+cachorro.respirar(); // Respirando! (herdado de animal)
